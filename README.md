@@ -84,7 +84,7 @@ class LSTMClassifier(nn.Module):
 
 Train function implementation
 
-  ```
+  ```Python
   def train(model, train_loader, epochs, optimizer, loss_fn, device):
       """
       This is the training method that is called by the PyTorch training script. The parameters
@@ -134,39 +134,6 @@ Train function implementation
               total_loss += loss.data.item()
           print("Epoch: {}, BCELoss: {}".format(epoch, total_loss / len(train_loader)))
   ```
-
-
-Can run experiment with different parameters values:
-
-  ```
-  •	Time limit: 100 y 150 ms
-  •	Opponent model:  GREEDY, MINIMAX, SELF, RANDOM
-  •	Depth: 3, 5, 7 (Parameter DEFAULT_DEPTH inside my_custom_player.py)
-  •	Matches: 100 (50 rounds)
-  ```
-
-To facilitate the execution was created a shell script named experiments.sh that executes these calls:
-  ```
-  python run_match.py -r 50 -o GREEDY -t 100
-  python run_match.py -r 50 -o MINIMAX -t 100
-  python run_match.py -r 50 -o SELF -t 100
-  python run_match.py -r 50 -o RANDOM -t 100
-  python run_match.py -r 50 -o GREEDY -t 150
-  python run_match.py -r 50 -o MINIMAX -t 150
-  python run_match.py -r 50 -o SELF -t 150
-  python run_match.py -r 50 -o RANDOM -t 150
-  ```
-
-It's necessary assign the right permits to execute the script: 
-  ```
-  chmod u+x experiments.sh
-  ```
-
-## Results report
-
-
-[Results report document](https://github.com/Fer-Bonilla/Udacity-Artificial-Intelligence-forward-planning-agent/blob/main/report.pdf)
-
 
 ## Author 
 Fernando Bonilla [linkedin](https://www.linkedin.com/in/fer-bonilla/)
