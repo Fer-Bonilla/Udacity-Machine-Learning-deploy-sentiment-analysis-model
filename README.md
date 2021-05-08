@@ -6,16 +6,17 @@ Project sections:
 
 - Problem understanding
 - Project structure
+- Implementation Architecture
 - Implementation
 - Model performance
-- Using the deployed model
+- Using the model
 
 ## Problem understanding
 
 Build a recurrent neural network for the purpose of determining the sentiment of a movie review using the IMDB data set using Amazon's SageMaker service. In addition, you will deploy your model and construct a simple web app which will interact with the deployed model.
 
 
-## Model Architecture
+## Implementation Architecture
 
 ![Logic model](https://github.com/Fer-Bonilla/Udacity-Machine-Learning-deploy-sentiment-analysis-model/blob/main/Web%20App%20Diagram.svg)
 
