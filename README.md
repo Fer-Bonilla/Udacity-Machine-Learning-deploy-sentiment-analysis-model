@@ -17,6 +17,7 @@ Build a recurrent neural network for the purpose of determining the sentiment of
 
 ## Model Architecture
 
+![Logic model](https://github.com/Fer-Bonilla/Udacity-Machine-Learning-deploy-sentiment-analysis-model/blob/main/Web App Diagram.svg)
 
 
 ## Project structure
