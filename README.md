@@ -6,8 +6,9 @@ Project sections:
 
 - Problem understanding
 - Project structure
-- Running experiments
-- Results report
+- Implementation
+- Model performance
+- Using the deployed model
 
 ## Problem understanding
 
@@ -134,6 +135,41 @@ Train function implementation
               total_loss += loss.data.item()
           print("Epoch: {}, BCELoss: {}".format(epoch, total_loss / len(train_loader)))
   ```
+
+## Model performance
+
+The project structure is based on the Udacity's project template:
+
+  ```
+  Epoch: 1, BCELoss: 0.6734046291331856
+  Epoch: 2, BCELoss: 0.6460410417342672
+  Epoch: 3, BCELoss: 0.5397356620856694
+  Epoch: 4, BCELoss: 0.45120982552061273
+  Epoch: 5, BCELoss: 0.4015633275314253
+  Epoch: 6, BCELoss: 0.371725961261866
+  Epoch: 7, BCELoss: 0.3564195596441931
+  Epoch: 8, BCELoss: 0.32198778159764346
+  Epoch: 9, BCELoss: 0.3038189967676085
+  Epoch: 10, BCELoss: 0.28800491593321975
+  ```
+
+## Using the model
+
+The project structure is based on the Udacity's project template:
+
+  ```
+  Epoch: 1, BCELoss: 0.6734046291331856
+  Epoch: 2, BCELoss: 0.6460410417342672
+  Epoch: 3, BCELoss: 0.5397356620856694
+  Epoch: 4, BCELoss: 0.45120982552061273
+  Epoch: 5, BCELoss: 0.4015633275314253
+  Epoch: 6, BCELoss: 0.371725961261866
+  Epoch: 7, BCELoss: 0.3564195596441931
+  Epoch: 8, BCELoss: 0.32198778159764346
+  Epoch: 9, BCELoss: 0.3038189967676085
+  Epoch: 10, BCELoss: 0.28800491593321975
+
+
 
 ## Author 
 Fernando Bonilla [linkedin](https://www.linkedin.com/in/fer-bonilla/)
