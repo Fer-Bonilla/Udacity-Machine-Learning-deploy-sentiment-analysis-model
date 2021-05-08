@@ -158,7 +158,8 @@ Training Loss
   Epoch: 9, BCELoss: 0.3038189967676085
   Epoch: 10, BCELoss: 0.28800491593321975
   ```
-Testing Accuracy
+
+Accuracy
   ```
   0.85544
   ```
