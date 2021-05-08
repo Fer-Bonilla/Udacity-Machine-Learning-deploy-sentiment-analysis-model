@@ -17,7 +17,7 @@ Build a recurrent neural network for the purpose of determining the sentiment of
 
 ## Model Architecture
 
-![Logic model](https://github.com/Fer-Bonilla/Udacity-Machine-Learning-deploy-sentiment-analysis-model/blob/main/Web App Diagram.svg)
+![Logic model](https://github.com/Fer-Bonilla/Udacity-Machine-Learning-deploy-sentiment-analysis-model/blob/main/Web%20App%20Diagram.svg)
 
 
 ## Project structure
@@ -168,10 +168,7 @@ Testing Accuracy
 
 Examples using the model with the AWS API Gateway
 
-
-![]()
-
-
+![Examples](https://github.com/Fer-Bonilla/Udacity-Machine-Learning-deploy-sentiment-analysis-model/blob/main/examples.png)
 
 
 ## Author 
